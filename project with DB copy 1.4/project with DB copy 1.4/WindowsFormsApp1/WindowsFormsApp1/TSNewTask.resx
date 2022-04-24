@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="formSkin2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="tasknumberTDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>task_number_T</value>
+  </data>
+  <data name="requesterDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>requester</value>
+  </data>
+  <data name="devicenumberDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>device_number</value>
+  </data>
+  <data name="departmentDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>department</value>
+  </data>
+  <data name="taskDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>task</value>
+  </data>
+  <data name="starttimeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>start_time</value>
+  </data>
+  <data name="finshtimeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>finsh_time</value>
+  </data>
+  <data name="stateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>state</value>
+  </data>
+  <data name="taskdatedefaultDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>task_date_default</value>
+  </data>
+  <metadata name="technicalsupportBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>282, 17</value>
+  </metadata>
+  <metadata name="task_managmentDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuCustomDataGrid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 277</value>
+  </data>
+  <data name="bunifuCustomDataGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>927, 342</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bunifuCustomDataGrid1.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomDataGrid1.Name" xml:space="preserve">
+    <value>bunifuCustomDataGrid1</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomDataGrid1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomDataGrid, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomDataGrid1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomDataGrid1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flatLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="flatLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 13</value>
+  </data>
+  <data name="flatLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="flatLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="flatLabel8.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.Name" xml:space="preserve">
+    <value>flatLabel8</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuImageButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuImageButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>987, 184</value>
+  </data>
+  <data name="bunifuImageButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 45</value>
+  </data>
+  <data name="bunifuImageButton2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="bunifuImageButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton2.Name" xml:space="preserve">
+    <value>bunifuImageButton2</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton2.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bunifuImageButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuImageButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>987, 227</value>
+  </data>
+  <data name="bunifuImageButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 48</value>
+  </data>
+  <data name="bunifuImageButton1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="bunifuImageButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.Name" xml:space="preserve">
+    <value>bunifuImageButton1</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuImageButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;bunifuImageButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flatTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 205</value>
+  </data>
+  <data name="flatTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 38</value>
+  </data>
+  <data name="flatTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox1.Name" xml:space="preserve">
+    <value>flatTextBox1</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox1.Type" xml:space="preserve">
+    <value>FlatUI.FlatTextBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flatTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 205</value>
+  </data>
+  <data name="flatTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 38</value>
+  </data>
+  <data name="flatTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox2.Name" xml:space="preserve">
+    <value>flatTextBox2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox2.Type" xml:space="preserve">
+    <value>FlatUI.FlatTextBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox2.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="flatTextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 205</value>
+  </data>
+  <data name="flatTextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 38</value>
+  </data>
+  <data name="flatTextBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox4.Name" xml:space="preserve">
+    <value>flatTextBox4</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox4.Type" xml:space="preserve">
+    <value>FlatUI.FlatTextBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox4.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="flatTextBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 205</value>
+  </data>
+  <data name="flatTextBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 38</value>
+  </data>
+  <data name="flatTextBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox5.Name" xml:space="preserve">
+    <value>flatTextBox5</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox5.Type" xml:space="preserve">
+    <value>FlatUI.FlatTextBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox5.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="flatTextBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 205</value>
+  </data>
+  <data name="flatTextBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 38</value>
+  </data>
+  <data name="flatTextBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox6.Name" xml:space="preserve">
+    <value>flatTextBox6</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox6.Type" xml:space="preserve">
+    <value>FlatUI.FlatTextBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox6.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatTextBox6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bunifuSeparator1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="bunifuSeparator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 258</value>
+  </data>
+  <data name="bunifuSeparator1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 12, 9, 12</value>
+  </data>
+  <data name="bunifuSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 22</value>
+  </data>
+  <data name="bunifuSeparator1.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;bunifuSeparator1.Name" xml:space="preserve">
+    <value>bunifuSeparator1</value>
+  </data>
+  <data name="&gt;&gt;bunifuSeparator1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuSeparator, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuSeparator1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;bunifuSeparator1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="flatMax1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="flatMax1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Marlett, 12pt</value>
+  </data>
+  <data name="flatMax1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 13</value>
+  </data>
+  <data name="flatMax1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="flatMax1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="flatMax1.Text" xml:space="preserve">
+    <value>flatMax1</value>
+  </data>
+  <data name="&gt;&gt;flatMax1.Name" xml:space="preserve">
+    <value>flatMax1</value>
+  </data>
+  <data name="&gt;&gt;flatMax1.Type" xml:space="preserve">
+    <value>FlatUI.FlatMax, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatMax1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatMax1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="flatComboBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="flatComboBox3.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="flatComboBox3.Items" xml:space="preserve">
+    <value>الادارة</value>
+  </data>
+  <data name="flatComboBox3.Items1" xml:space="preserve">
+    <value>علوم رياضيات</value>
+  </data>
+  <data name="flatComboBox3.Items2" xml:space="preserve">
+    <value>علوم فيزياء</value>
+  </data>
+  <data name="flatComboBox3.Items3" xml:space="preserve">
+    <value>علوم كيمياء</value>
+  </data>
+  <data name="flatComboBox3.Items4" xml:space="preserve">
+    <value>علوم كيمياء حيوية</value>
+  </data>
+  <data name="flatComboBox3.Items5" xml:space="preserve">
+    <value>علوم احياء</value>
+  </data>
+  <data name="flatComboBox3.Items6" xml:space="preserve">
+    <value>علوم احصاء</value>
+  </data>
+  <data name="flatComboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 205</value>
+  </data>
+  <data name="flatComboBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 24</value>
+  </data>
+  <data name="flatComboBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox3.Name" xml:space="preserve">
+    <value>flatComboBox3</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox3.Type" xml:space="preserve">
+    <value>FlatUI.FlatComboBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox3.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="flatComboBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="flatComboBox2.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="flatComboBox2.Items" xml:space="preserve">
+    <value>تم الانجاز</value>
+  </data>
+  <data name="flatComboBox2.Items1" xml:space="preserve">
+    <value>قيد التنفيذ</value>
+  </data>
+  <data name="flatComboBox2.Items2" xml:space="preserve">
+    <value>استنئناف</value>
+  </data>
+  <data name="flatComboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 205</value>
+  </data>
+  <data name="flatComboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 24</value>
+  </data>
+  <data name="flatComboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox2.Name" xml:space="preserve">
+    <value>flatComboBox2</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox2.Type" xml:space="preserve">
+    <value>FlatUI.FlatComboBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox2.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="flatLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 155</value>
+  </data>
+  <data name="flatLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="flatLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel6.Text" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.Name" xml:space="preserve">
+    <value>flatLabel6</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="flatLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 151</value>
+  </data>
+  <data name="flatLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 25</value>
+  </data>
+  <data name="flatLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel7.Text" xml:space="preserve">
+    <value>نهايتها</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.Name" xml:space="preserve">
+    <value>flatLabel7</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="flatLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 151</value>
+  </data>
+  <data name="flatLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 25</value>
+  </data>
+  <data name="flatLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel5.Text" xml:space="preserve">
+    <value>بدايتها</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.Name" xml:space="preserve">
+    <value>flatLabel5</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="flatLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 155</value>
+  </data>
+  <data name="flatLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="flatLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel4.Text" xml:space="preserve">
+    <value>المهمة</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.Name" xml:space="preserve">
+    <value>flatLabel4</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="flatLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 155</value>
+  </data>
+  <data name="flatLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="flatLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel3.Text" xml:space="preserve">
+    <value>القسم </value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.Name" xml:space="preserve">
+    <value>flatLabel3</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="flatLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>792, 151</value>
+  </data>
+  <data name="flatLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="flatLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel2.Text" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.Name" xml:space="preserve">
+    <value>flatLabel2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="flatLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flatLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="flatLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="flatLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>868, 155</value>
+  </data>
+  <data name="flatLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="flatLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="flatLabel1.Text" xml:space="preserve">
+    <value>طالبة الطالب</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.Name" xml:space="preserve">
+    <value>flatLabel1</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.Type" xml:space="preserve">
+    <value>FlatUI.FlatLabel, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatLabel1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="flatComboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt</value>
+  </data>
+  <data name="flatComboBox1.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="flatComboBox1.Items" xml:space="preserve">
+    <value>فني دعم</value>
+  </data>
+  <data name="flatComboBox1.Items1" xml:space="preserve">
+    <value>اداري</value>
+  </data>
+  <data name="flatComboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 96</value>
+  </data>
+  <data name="flatComboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 24</value>
+  </data>
+  <data name="flatComboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox1.Name" xml:space="preserve">
+    <value>flatComboBox1</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox1.Type" xml:space="preserve">
+    <value>FlatUI.FlatComboBox, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatComboBox1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="FlatMini.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="FlatMini.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Marlett, 12pt</value>
+  </data>
+  <data name="FlatMini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>976, 13</value>
+  </data>
+  <data name="FlatMini.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="FlatMini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="FlatMini.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="FlatMini.Text" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="&gt;&gt;FlatMini.Name" xml:space="preserve">
+    <value>FlatMini</value>
+  </data>
+  <data name="&gt;&gt;FlatMini.Type" xml:space="preserve">
+    <value>FlatUI.FlatMini, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FlatMini.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;FlatMini.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="FlatClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="FlatClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Marlett, 10pt</value>
+  </data>
+  <data name="FlatClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1012, 13</value>
+  </data>
+  <data name="FlatClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="FlatClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="FlatClose.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="FlatClose.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;FlatClose.Name" xml:space="preserve">
+    <value>FlatClose</value>
+  </data>
+  <data name="&gt;&gt;FlatClose.Type" xml:space="preserve">
+    <value>FlatUI.FlatClose, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FlatClose.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;FlatClose.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="flatButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="flatButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 628</value>
+  </data>
+  <data name="flatButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 32</value>
+  </data>
+  <data name="flatButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="flatButton2.Text" xml:space="preserve">
+    <value>PDF حفظ</value>
+  </data>
+  <data name="&gt;&gt;flatButton2.Name" xml:space="preserve">
+    <value>flatButton2</value>
+  </data>
+  <data name="&gt;&gt;flatButton2.Type" xml:space="preserve">
+    <value>FlatUI.FlatButton, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatButton2.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatButton2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="flatButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="flatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 628</value>
+  </data>
+  <data name="flatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 32</value>
+  </data>
+  <data name="flatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="flatButton1.Text" xml:space="preserve">
+    <value>حفظ </value>
+  </data>
+  <data name="&gt;&gt;flatButton1.Name" xml:space="preserve">
+    <value>flatButton1</value>
+  </data>
+  <data name="&gt;&gt;flatButton1.Type" xml:space="preserve">
+    <value>FlatUI.FlatButton, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatButton1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatButton1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="flatStickyButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="flatStickyButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 86</value>
+  </data>
+  <data name="flatStickyButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 45</value>
+  </data>
+  <data name="flatStickyButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="flatStickyButton2.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton2.Name" xml:space="preserve">
+    <value>flatStickyButton2</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton2.Type" xml:space="preserve">
+    <value>FlatUI.FlatStickyButton, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton2.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton2.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="flatStickyButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="flatStickyButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 86</value>
+  </data>
+  <data name="flatStickyButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 45</value>
+  </data>
+  <data name="flatStickyButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="flatStickyButton1.Text" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton1.Name" xml:space="preserve">
+    <value>flatStickyButton1</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton1.Type" xml:space="preserve">
+    <value>FlatUI.FlatStickyButton, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton1.Parent" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;flatStickyButton1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="formSkin2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="formSkin2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="formSkin2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="formSkin2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 685</value>
+  </data>
+  <data name="formSkin2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="formSkin2.Text" xml:space="preserve">
+    <value>مهمة جديدة فني دعم</value>
+  </data>
+  <data name="&gt;&gt;formSkin2.Name" xml:space="preserve">
+    <value>formSkin2</value>
+  </data>
+  <data name="&gt;&gt;formSkin2.Type" xml:space="preserve">
+    <value>FlatUI.FormSkin, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;formSkin2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formSkin2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="technical_supportTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>598, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 685</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;task_managmentDataSet.Name" xml:space="preserve">
+    <value>task_managmentDataSet</value>
+  </data>
+  <data name="&gt;&gt;task_managmentDataSet.Type" xml:space="preserve">
+    <value>WindowsFormsApp1.task_managmentDataSet, task_managmentDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;technicalsupportBindingSource.Name" xml:space="preserve">
+    <value>technicalsupportBindingSource</value>
+  </data>
+  <data name="&gt;&gt;technicalsupportBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;technical_supportTableAdapter.Name" xml:space="preserve">
+    <value>technical_supportTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;technical_supportTableAdapter.Type" xml:space="preserve">
+    <value>WindowsFormsApp1.task_managmentDataSetTableAdapters.technical_supportTableAdapter, task_managmentDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tasknumberTDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>tasknumberTDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;tasknumberTDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requesterDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>requesterDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;requesterDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;devicenumberDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>devicenumberDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;devicenumberDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;departmentDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>departmentDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;departmentDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;taskDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>taskDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;taskDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;starttimeDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>starttimeDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;starttimeDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;finshtimeDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>finshtimeDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;finshtimeDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stateDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>stateDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;stateDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;taskdatedefaultDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>taskdatedefaultDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;taskdatedefaultDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TSNewTask</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
